@@ -9,7 +9,7 @@
     "url": "https://github.com/maxvien"
   },
   "scripts": {
-    "dev": "nodemon",
+    "dev": "next dev -p 3006",
     "build": "NODE_ENV=development next build && tsc --project tsconfig.server.json",
     "start": "NODE_ENV=production node dist/index.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix .",
